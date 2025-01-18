@@ -15,6 +15,11 @@ namespace LoginPage
         { 
         }
 
+        protected void Button2_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("Registerform.aspx"); 
+        }
+
         protected void Button1_Click(object sender, EventArgs e)
         {
             if (TextBox1.Text.Length <= 0)

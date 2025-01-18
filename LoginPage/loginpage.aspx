@@ -85,7 +85,7 @@
         </div>
         <div class="button-group">
             <asp:Button ID="Button1" runat="server" CssClass="login-btn" Text="Login" OnClick="Button1_Click" />
-            <asp:Button ID="Button2" runat="server" CssClass="cancel-btn" Text="Cancel" />
+            <asp:Button ID="Button2" runat="server" CssClass="cancel-btn" Text="Register" OnClick="Button2_Click" />
         </div>
     </form>
 </body>
